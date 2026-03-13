@@ -4,8 +4,9 @@
 大家辛苦，注意注释与沟通！
 
 简要文件框架
-client_gRPC/
-└── dev_test/           # 《开发测试》主文件夹
+
+client_gRPC/dev_test/           # 《开发测试》主文件夹
+
     ├── data/           # 存放测试用的log、proto等数据文件
     ├── core/           # 数据解析与事件驱动核心代码
     │   ├── decoder.py   # 解析log、proto等数据
@@ -21,3 +22,4 @@ client_gRPC/
     │   ├── converter.py
     ├── README.md       # 项目说明与开发分工
     └── main.py         # 项目入口，整合各模块
+
